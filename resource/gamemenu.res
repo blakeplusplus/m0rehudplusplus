@@ -3,31 +3,15 @@
 	//====================================================================================================================================================
 	// MAIN MENU BUTTONS
 	//====================================================================================================================================================
-	"Version"
-	{
-		"label"										"m0rehud 7.2"
-		"command"									"engine showconsole; echo m0rehud by Hypnotize, created by m0re. Download new versions @ github.com/Hypnootize/m0rehud"
-		"OnlyAtMenu"								"1"
-	}
 	"Servers"
 	{
 		"label"										"Servers"
 		"command"									"OpenServerBrowser"
 	}
-	"Create"
-	{
-		"label"										"+"
-		"command"									"OpenCreateMultiplayerGameDialog"
-	}
 	"Items"
 	{
 		"label"										"Items"
 		"command"									"engine open_charinfo"
-	}
-	"Store"
-	{
-		"label"										"Store"
-		"command"									"engine open_store"
 	}
 	"Settings"
 	{
@@ -49,11 +33,6 @@
 		"label"										"k"
 		"command"									"motd_show"
 		"tooltip"									"Friends List"
-	}
-	"Workshop"
-	{
-		"label"										"Workshop"
-		"command"									"engine OpenSteamWorkshopDialog"
 	}
 	"DemoUI"
 	{
