@@ -26,13 +26,18 @@
 	"HUDOptions"
 	{
 		"label"										"HUD Options"
-		"command"									"engine cl_mainmenu_safemode 1; mat_queue_mode 0"
+		"command"									"engine cl_mainmenu_safemode 1; mat_queue_mode 0; gameui_preventescape"
 	}
 	"Friends"
 	{
 		"label"										"k"
 		"command"									"motd_show"
 		"tooltip"									"Friends List"
+	}
+	"Quickplay"
+	{
+		"label"										"n"
+		"command"									"engine replay_reloadbrowser"
 	}
 	"DemoUI"
 	{
